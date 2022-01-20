@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project( DisplayImage )
+find_package( OpenCV REQUIRED PATHS /home/ahmed/opencv/build NO_DEFAULT_PATH)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( DisplayImage src/displayImage.cpp )
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )

@@ -8,7 +8,7 @@ def select_men_bad_skin(df):
     return df_new
 
 
-df = pd.read_csv("preprocessed_file.csv")
+df = pd.read_csv("csvs/preprocessed_file.csv")
 df_new = select_men_bad_skin(df)
 #print(df_new)
 
@@ -19,7 +19,7 @@ for _, row in df_new["patientNumber"].iteritems():
         for directory in dirs:
             if directory == str(row):
                 print("inside")
-                print(root)
+                print(root+"/"+directory)
                 dirlist = os.listdir(root+"/"+directory)
                 print(*dirlist,sep="\n")
                 break
