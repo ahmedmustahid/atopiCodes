@@ -1,0 +1,3 @@
+/home/ahmed/work/atopiWork/atopiCodes/sift/Debug/CMakeFiles/DisplayImage.dir
+/home/ahmed/work/atopiWork/atopiCodes/sift/Debug/CMakeFiles/edit_cache.dir
+/home/ahmed/work/atopiWork/atopiCodes/sift/Debug/CMakeFiles/rebuild_cache.dir
