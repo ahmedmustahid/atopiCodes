@@ -129,29 +129,29 @@ DisplayImage/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
 .PHONY : DisplayImage/fast
 
-src/displayImage.o: src/displayImage.cpp.o
-.PHONY : src/displayImage.o
+src/sift_display.o: src/sift_display.cpp.o
+.PHONY : src/sift_display.o
 
 # target to build an object file
-src/displayImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o
-.PHONY : src/displayImage.cpp.o
+src/sift_display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o
+.PHONY : src/sift_display.cpp.o
 
-src/displayImage.i: src/displayImage.cpp.i
-.PHONY : src/displayImage.i
+src/sift_display.i: src/sift_display.cpp.i
+.PHONY : src/sift_display.i
 
 # target to preprocess a source file
-src/displayImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/displayImage.cpp.i
-.PHONY : src/displayImage.cpp.i
+src/sift_display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/sift_display.cpp.i
+.PHONY : src/sift_display.cpp.i
 
-src/displayImage.s: src/displayImage.cpp.s
-.PHONY : src/displayImage.s
+src/sift_display.s: src/sift_display.cpp.s
+.PHONY : src/sift_display.s
 
 # target to generate assembly for a file
-src/displayImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/displayImage.cpp.s
-.PHONY : src/displayImage.cpp.s
+src/sift_display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/src/sift_display.cpp.s
+.PHONY : src/sift_display.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DisplayImage"
-	@echo "... src/displayImage.o"
-	@echo "... src/displayImage.i"
-	@echo "... src/displayImage.s"
+	@echo "... src/sift_display.o"
+	@echo "... src/sift_display.i"
+	@echo "... src/sift_display.s"
 .PHONY : help
 
 

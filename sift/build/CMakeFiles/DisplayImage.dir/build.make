@@ -69,28 +69,28 @@ include CMakeFiles/DisplayImage.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DisplayImage.dir/flags.make
 
-CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
-CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o: ../src/displayImage.cpp
-CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o: CMakeFiles/DisplayImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/work/atopiWork/atopiCodes/sift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o -MF CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o.d -o CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o -c /home/ahmed/work/atopiWork/atopiCodes/sift/src/displayImage.cpp
+CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
+CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o: ../src/sift_display.cpp
+CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o: CMakeFiles/DisplayImage.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahmed/work/atopiWork/atopiCodes/sift/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o -MF CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o.d -o CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o -c /home/ahmed/work/atopiWork/atopiCodes/sift/src/sift_display.cpp
 
-CMakeFiles/DisplayImage.dir/src/displayImage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/src/displayImage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/work/atopiWork/atopiCodes/sift/src/displayImage.cpp > CMakeFiles/DisplayImage.dir/src/displayImage.cpp.i
+CMakeFiles/DisplayImage.dir/src/sift_display.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/src/sift_display.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahmed/work/atopiWork/atopiCodes/sift/src/sift_display.cpp > CMakeFiles/DisplayImage.dir/src/sift_display.cpp.i
 
-CMakeFiles/DisplayImage.dir/src/displayImage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/src/displayImage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/work/atopiWork/atopiCodes/sift/src/displayImage.cpp -o CMakeFiles/DisplayImage.dir/src/displayImage.cpp.s
+CMakeFiles/DisplayImage.dir/src/sift_display.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/src/sift_display.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahmed/work/atopiWork/atopiCodes/sift/src/sift_display.cpp -o CMakeFiles/DisplayImage.dir/src/sift_display.cpp.s
 
 # Object files for target DisplayImage
 DisplayImage_OBJECTS = \
-"CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o"
+"CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o"
 
 # External object files for target DisplayImage
 DisplayImage_EXTERNAL_OBJECTS =
 
-DisplayImage: CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o
+DisplayImage: CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o
 DisplayImage: CMakeFiles/DisplayImage.dir/build.make
 DisplayImage: /home/ahmed/opencv/build/lib/libopencv_gapi.so.4.5.5
 DisplayImage: /home/ahmed/opencv/build/lib/libopencv_stitching.so.4.5.5

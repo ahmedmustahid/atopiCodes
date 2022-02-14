@@ -1,0 +1,9 @@
+tqdm
+numpy
+pandas
+matplotlib
+sklearn
+tensorflow
+efficientnet
+tfa-nightly
+

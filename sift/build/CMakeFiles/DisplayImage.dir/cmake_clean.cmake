@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o"
-  "CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o.d"
+  "CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o"
+  "CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o.d"
   "DisplayImage"
   "DisplayImage.pdb"
 )

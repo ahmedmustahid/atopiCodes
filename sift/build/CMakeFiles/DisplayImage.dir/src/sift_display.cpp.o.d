@@ -1,5 +1,5 @@
-CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o: \
- /home/ahmed/work/atopiWork/atopiCodes/sift/src/displayImage.cpp \
+CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o: \
+ /home/ahmed/work/atopiWork/atopiCodes/sift/src/sift_display.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -224,4 +224,8 @@ CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o: \
  /home/ahmed/opencv/modules/flann/include/opencv2/flann/defines.h \
  /home/ahmed/opencv/modules/flann/include/opencv2/flann/config.h \
  /home/ahmed/opencv_contrib/modules/xfeatures2d/include/opencv2/xfeatures2d.hpp \
- /home/ahmed/opencv_contrib/modules/xfeatures2d/include/opencv2/xfeatures2d/nonfree.hpp
+ /home/ahmed/opencv_contrib/modules/xfeatures2d/include/opencv2/xfeatures2d/nonfree.hpp \
+ /usr/include/c++/7/fstream /usr/include/c++/7/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
+ /usr/include/c++/7/bits/fstream.tcc

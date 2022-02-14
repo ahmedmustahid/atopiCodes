@@ -6,7 +6,6 @@
 #include "opencv2/xfeatures2d.hpp"
 #include <fstream>
 #include <algorithm>
-#include <filesystem>
 using namespace cv;
 using namespace cv::xfeatures2d;
 using std::cout;
@@ -16,12 +15,9 @@ int main( int argc, char* argv[] )
     CommandLineParser parser( argc, argv, "{@input | box.png | input image}" );
     Mat src = imread( samples::findFile( parser.get<String>( "@input" ) ) );
 
-    const std::filesystem::path sandbox{"sandbox"};
 
 
     std::cout << "directory_iterator:\n";
-    for(auto const& dir_entry: std::filesystem::directory_iterator{sandbox})
-        std::cout << dir_entry << '\n';
 
 
     //Mat src = imread( samples::findFile( parser.get<String>( "@input" ) ), IMREAD_GRAYSCALE );
@@ -32,7 +28,7 @@ int main( int argc, char* argv[] )
         return -1;
     }
     //-- Step 1: Detect the keypoints using SURF Detector
-    int nfeatures = 10;
+    int nfeatures = 400;
     Ptr<SIFT> detector = SIFT::create(nfeatures = nfeatures);
     std::vector<KeyPoint> keypoints;
 

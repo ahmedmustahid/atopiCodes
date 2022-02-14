@@ -218,9 +218,6 @@ DisplayImage_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 DisplayImage_SOURCE_DIR:STATIC=/home/ahmed/work/atopiWork/atopiCodes/sift
 
-//No help, variable specified on the command line.
-OPENCV_ENABLE_NONFREE:UNINITIALIZED=ON
-
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/home/ahmed/opencv/build
 

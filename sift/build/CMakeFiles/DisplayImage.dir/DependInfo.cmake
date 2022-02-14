@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ahmed/work/atopiWork/atopiCodes/sift/src/displayImage.cpp" "CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o" "gcc" "CMakeFiles/DisplayImage.dir/src/displayImage.cpp.o.d"
+  "/home/ahmed/work/atopiWork/atopiCodes/sift/src/sift_display.cpp" "CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o" "gcc" "CMakeFiles/DisplayImage.dir/src/sift_display.cpp.o.d"
   )
 
 # Targets to which this target links.
